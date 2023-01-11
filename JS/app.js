@@ -99,7 +99,7 @@ function adicionarTomate(){
         divHamburguer.innerHTML = valorHamburguer +
        '<div class="itens-selecionados">'
          + '<div><h2>Tomate</h2></div>'
-         + '<div><img src="IMG/Tomate.png" alt="Tomate"></div>'
+         + '<div><img src="IMG/tomate.png" alt="Tomate"></div>'
          + '<div><h2>+R$1,00</h2></div>'
          + '</div>';     
     }
@@ -120,7 +120,7 @@ function adicionarAlface(){
         divHamburguer.innerHTML = valorHamburguer +
        '<div class="itens-selecionados">'
          + '<div><h2>Alface</h2></div>'
-         + '<div><img src="IMG/Alface.png" alt="Alface"></div>'
+         + '<div><img src="IMG/alface.png" alt="Alface"></div>'
          + '<div><h2>+R$0,30</h2></div>'
          + '</div>';     
     }
@@ -141,7 +141,7 @@ function adicionarCebola(){
         divHamburguer.innerHTML = valorHamburguer +
        '<div class="itens-selecionados">'
          + '<div><h2>Cebola</h2></div>'
-         + '<div><img src="IMG/Cebola.png" alt="Cebola"></div>'
+         + '<div><img src="IMG/cebola.png" alt="Cebola"></div>'
          + '<div><h2>+R$0,50</h2></div>'
          + '</div>';     
     }
@@ -162,7 +162,7 @@ function adicionarCheddar(){
         divHamburguer.innerHTML = valorHamburguer +
        '<div class="itens-selecionados">'
          + '<div><h2>Cheddar</h2></div>'
-         + '<div><img src="IMG/Chedar.png" alt="Cheddar"></div>'
+         + '<div><img src="IMG/chedar.png" alt="Cheddar"></div>'
          + '<div><h2>+R$1,20</h2></div>'
          + '</div>';     
     }
@@ -183,7 +183,7 @@ function adicionarBacon(){
         divHamburguer.innerHTML = valorHamburguer +
        '<div class="itens-selecionados">'
          + '<div><h2>Bacon</h2></div>'
-         + '<div><img src="IMG/Bacon.png" alt="Bacon"></div>'
+         + '<div><img src="IMG/bacon.png" alt="Bacon"></div>'
          + '<div><h2>+R$5,00</h2></div>'
          + '</div>';     
     }
@@ -225,7 +225,7 @@ function adicionarBarbecue(){
         divHamburguer.innerHTML = valorHamburguer +
        '<div class="itens-selecionados">'
          + '<div><h2>Barbecue</h2></div>'
-         + '<div><img src="IMG/Barbecue.png" alt="Barbecue"></div>'
+         + '<div><img src="IMG/barbecue.png" alt="Barbecue"></div>'
          + '<div><h2>+R$2,30</h2></div>'
          + '</div>';     
     }
@@ -246,7 +246,7 @@ function adicionarMaionese(){
         divHamburguer.innerHTML = valorHamburguer +
        '<div class="itens-selecionados">'
          + '<div><h2>Maionese Temperada</h2></div>'
-         + '<div><img src="IMG/Maionese.png" alt="Maionese"></div>'
+         + '<div><img src="IMG/maionese.png" alt="Maionese"></div>'
          + '<div><h2>+R$2,00</h2></div>'
          + '</div>';     
     }
@@ -307,7 +307,7 @@ function addClassic(){
     divCombo.innerHTML = divCombo.innerHTML +
    '<div class="itens-selecionados">'
      + '<div><h2>Classic Burguer</h2></div>'
-     + '<div><img src="IMG/Classic.png" alt="Classic"></div>'
+     + '<div><img src="IMG/classic.png" alt="Classic"></div>'
      + '<div><h2>+R$32,90</h2></div>'
      + '</div>';     
     }
@@ -326,7 +326,7 @@ function addMega(){
     divCombo.innerHTML = divCombo.innerHTML + 
    '<div class="itens-selecionados">'
      + '<div><h2>Mega Burguer</h2></div>'
-     + '<div><img src="IMG/Mega.png" alt="Mega"></div>'
+     + '<div><img src="IMG/mega.png" alt="Mega"></div>'
      + '<div><h2>+R$29,99</h2></div>'
      + '</div>';     
     }
@@ -345,7 +345,7 @@ function addBurguinho(){
     divCombo.innerHTML = divCombo.innerHTML +
    '<div class="itens-selecionados">'
      + '<div><h2>Burguinho</h2></div>'
-     + '<div><img src="IMG/Burguinho.png" alt="Burguinho"></div>'
+     + '<div><img src="IMG/burguinho.png" alt="Burguinho"></div>'
      + '<div><h2>+R$10,99</h2></div>'
      + '</div>';     
     }
@@ -364,7 +364,7 @@ function addVegetal(){
     divCombo.innerHTML = divCombo.innerHTML +
    '<div class="itens-selecionados">'
      + '<div><h2>Vegetal</h2></div>'
-     + '<div><img src="IMG/Vegetal.png" alt="Vegetal"></div>'
+     + '<div><img src="IMG/vegetal.png" alt="Vegetal"></div>'
      + '<div><h2>+R$27,99</h2></div>'
      + '</div>';     
     }
@@ -383,7 +383,7 @@ function addChick(){
     divCombo.innerHTML = divCombo.innerHTML +
    '<div class="itens-selecionados">'
      + '<div><h2>Chick Burguer</h2></div>'
-     + '<div><img src="IMG/Chick Burguer.png" alt="Chick"></div>'
+     + '<div><img src="IMG/chick Burguer.png" alt="Chick"></div>'
      + '<div><h2>+R$19,99</h2></div>'
      + '</div>';     
     }
@@ -421,7 +421,7 @@ function addBatata(){
     divCombo.innerHTML = divCombo.innerHTML +
    '<div class="itens-selecionados">'
      + '<div><h2>Batata Frita</h2></div>'
-     + '<div><img src="IMG/BatataFrita.png" alt="Batata"></div>'
+     + '<div><img src="IMG/batataFrita.png" alt="Batata"></div>'
      + '<div><h2>+R$8,99</h2></div>'
      + '</div>';     
     }
@@ -440,7 +440,7 @@ function addBurguitos(){
     divCombo.innerHTML = divCombo.innerHTML +
    '<div class="itens-selecionados">'
      + '<div><h2>Burguitos</h2></div>'
-     + '<div><img src="IMG/Burguitos.png" alt="Burguitos"></div>'
+     + '<div><img src="IMG/burguitos.png" alt="Burguitos"></div>'
      + '<div><h2>+R$7,59</h2></div>'
      + '</div>';     
     }
@@ -459,7 +459,7 @@ function addCoca(){
     divCombo.innerHTML = divCombo.innerHTML +
    '<div class="itens-selecionados">'
      + '<div><h2>Coca-Cola</h2></div>'
-     + '<div><img src="IMG/Coca.png" alt="Coca"></div>'
+     + '<div><img src="IMG/coca.png" alt="Coca"></div>'
      + '<div><h2>+R$6,50</h2></div>'
      + '</div>';     
     }
@@ -478,7 +478,7 @@ function addFanta(){
     divCombo.innerHTML = divCombo.innerHTML +
    '<div class="itens-selecionados">'
      + '<div><h2>Fanta</h2></div>'
-     + '<div><img src="IMG/Fanta.png" alt="Fanta"></div>'
+     + '<div><img src="IMG/fanta.png" alt="Fanta"></div>'
      + '<div><h2>+R$6,50</h2></div>'
      + '</div>';     
     }
@@ -535,7 +535,7 @@ function addAgua(){
     divCombo.innerHTML = divCombo.innerHTML +
    '<div class="itens-selecionados">'
      + '<div><h2>Água</h2></div>'
-     + '<div><img src="IMG/Agua.png" alt="Agua"></div>'
+     + '<div><img src="IMG/agua.png" alt="Agua"></div>'
      + '<div><h2>+R$3,20</h2></div>'
      + '</div>';     
     }
@@ -554,7 +554,7 @@ function addKapo(){
     divCombo.innerHTML = divCombo.innerHTML +
    '<div class="itens-selecionados">'
      + '<div><h2>Kapo</h2></div>'
-     + '<div><img src="IMG/Kapo.png" alt="Kapo"></div>'
+     + '<div><img src="IMG/kapo.png" alt="Kapo"></div>'
      + '<div><h2>+R$2,80</h2></div>'
      + '</div>';     
     }
