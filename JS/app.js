@@ -585,18 +585,3 @@ function excluirProds2(){
         divHamburguer.innerHTML = '';
     }else{}
 }
-
-Classic
-Mega
-Burguinho
-Vegetal
-Chick
-Br
-Batata
-Burguitos
-Coca
-Fanta
-Dolly
-Jesus
-Agua
-Kapo
