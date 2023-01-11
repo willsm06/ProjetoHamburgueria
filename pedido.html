@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>Burgão - Finalizar pedido</title>
+</head>
+<body id="body-compras">
+    <div class="space"></div>
+    <main id="content">
+        <img class="logo-pedido" src="img/Logo.png" alt="logo">
+        <div id="content-pedido">
+            <h1>Finalizar Compra</h1>
+            <form action="index.html" id="form">
+                <label for="txt_nome">Nome Completo*</label><br>
+                <input type="text" name="txt_nome" id="txt_nome" class="campo1 required" placeholder="ex: Rodolfo Nascimento" onkeyup="return somenteLetras(event)" oninput="nameValidate()" autofocus required>
+                <br><span class="span-required">Digite um nome válido</span>
+                <br><br>
+                <label for="txt_cpf">Email*</label><br>
+                <input type="email" name="txt_email" id="txt_email" class="campo3 required"  placeholder="ex: burgao@gmail.com" oninput="emailValidate()" required>
+                <br><span class="span-required">Digite um Email válido</span>
+                <br><br>
+                <label for="txt_cpf">CPF*</label><br>
+                <input type="text" name="txt_cpf" id="txt_cpf" class="campo2 required"  placeholder="ex: 673.856.847-78" oninput="cpflValidate()" onkeyup="return somenteNumeros(event)" required>
+                <br><span class="span-required">Digite um CPF válido</span>
+                <br><br>
+                <label for="txt_cep">CEP*</label><br>
+                <input type="text" name="txt_cep" id="txt_cep" class="campo4 required" placeholder="ex:  53926-067" required oninput="cepValidate()" onkeyup="return somenteNumeros2(event)">
+                <br><span class="span-required">Digite um CEP válido</span>
+                <br><br>
+                <label for="txt_fpgto">Forma de pagamento*</label><br>
+                <div class="radio">
+                <input type="radio" name="txt_fpgto" class="txt_fpgto" checked>
+                <label for="txt_fpgto">PIX</label>
+                <br>
+                <input type="radio" name="txt_fpgto" class="txt_fpgto">
+                <label for="txt_fpgto">Débito</label>
+                <br>
+                <input type="radio" name="txt_fpgto" class="txt_fpgto">
+                <label for="txt_fpgto">Crédito</label>
+                </div> 
+                <br><br>
+                <input type="submit" name="txt_fpgto" id="txt_fpgto_submit" value="Finalizar Compra">
+            </form><br><br>
+            <img src="IMg/bandeiras.png" alt="bandeiras" style="height: 50px;"><img src="IMG/pgSeguro.png" alt="pgSeguro" style="height: 50px;"><br><br>
+        </div>
+    </main>
+    <script src="JS/validate.js"></script>
+</body>
+</html>

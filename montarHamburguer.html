@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>Burgão - Montar hamburguer</title>
+</head>
+<body>
+    <div class="pop-out-avaliacao">
+        <div class="top-avaliacao"><img src="IMG/Logo.png" alt="logo">
+            <div><h1>Avalie nosso site!</h1>
+            <p>Nos de uma nota de acordo com a experiencia<br>
+            proporcionada á você atraves de nosso site.</p>
+            </div>
+        </div>
+        <div class="mid-avaliacao">
+            <div class="expRuim"><img src="IMG/EmojiTriste.png" alt="EmojiTriste"><p>Ruim</p></div>
+            <div class="expIndiferente"><img src="IMG/EmojiUnanime.png" alt="EmojiTriste"><p>Indiferente</p></div>
+            <div class="expBoa"><img src="IMG/EmojiFeliz.png" alt="EmojiTriste"><p>Boa</p></div>
+            <div class="expIncrivel"><img src="IMG/EmojiApaixonjado.png" alt="EmojiTriste"><p>Incrível</p></div>
+        </div>
+        <buttonc class="expBtn">Ignorar</button>
+    </div>
+    <header>
+        <div><a href="index.html"><img class="img-header-logo" src="IMG/Logo.png" alt="logo"></a></div>
+        <nav>
+            <ul>
+                <li><a href="combo.html">Montar combo</a></li>
+                <li><a href="montarHamburguer.html">Criar hamburguer</a></li>
+                <li><a href="compras.html">Suas Compras</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button class="botao-pedir-header">Avaliar Burgão ★★☆</button>
+        </div>
+    </header>
+    <div class="space"></div>
+    <main id="content">
+        <div class="template" style="flex-direction: co;">
+            <img src="IMG/bgDesmontado.png" alt="Combo">
+            <h1 class="title" style="color: #FF7900;">Monte seu Hamburguer!</h1>
+        </div>
+        <div class="linha-divisoria"></div>
+
+                <div class="sub-iten">
+                    <div>
+                    <h1>Como montar?</h1>
+                    <p>Adicione 11 ingredientes ao seu hamburguer!
+                    <br>
+                    E monte sua refeição preferida da maneira que preferir.
+                    </p>
+                    </div>
+                </div>
+
+            <div class="produtos">
+                <h1 class="title">Carnes</h1>
+                <section id="section2">
+                    <div class="produto">
+                        <img src="IMG/CarneBovina.png" alt="bovina">
+                        <div class="faixa-nome"><p>Carne Bovina</p></div>
+                        <button class="faixa-pedido bovina" onclick="adicionarBovina()" value="1">Adicionar +</button>
+                    </div>
+                    <div class="produto">
+                        <img src="IMG/CarneDeFrango.png" alt="Frango">
+                        <div class="faixa-nome"><p>Frango</p></div>
+                        <button class="faixa-pedido Frango" onclick="adicionarFrango()">Adicionar +</button>
+                    </div>
+                    <div class="produto">
+                        <img src="IMG/CarneVegetal.png" alt="vegetal">
+                        <div class="faixa-nome"><p>Vegetal</p></div>
+                        <button class="faixa-pedido Vegetal" onclick="adicionarVegetal()">Adicionar +</button>
+                    </div>
+                </section>
+
+                <h1 class="title">Acompanhamentos</h1>
+                <section>
+                    <div class="produto">
+                        <img src="IMG/tomate.png" alt="tomate">
+                        <div class="faixa-nome"><p>Tomate</p></div>
+                        <button class="faixa-pedido Tomate" onclick="adicionarTomate()">Adicionar +</button>
+                    </div>
+                    <div class="produto">
+                        <img id="img-burguitos" src="IMG/alface.png" alt="alface">
+                        <div class="faixa-nome"><p>Alface</p></div>
+                        <button class="faixa-pedido Alface" onclick="adicionarAlface()">Adicionar +</button>
+                    </div>
+                    <div class="produto">
+                        <img id="img-burguitos" src="IMG/cebola.png" alt="cebola">
+                        <div class="faixa-nome"><p>Cebola</p></div>
+                        <button class="faixa-pedido Cebola" onclick="adicionarCebola()">Adicionar +</button>
+                    </div>
+                    <div class="produto">
+                        <img id="img-burguitos" src="IMG/chedar.png" alt="chedar">
+                        <div class="faixa-nome"><p>Cheddar</p></div>
+                        <button class="faixa-pedido Cheddar" onclick="adicionarCheddar()">Adicionar +</button>
+                    </div>
+                    <div class="produto">
+                        <img id="img-burguitos" src="IMG/bacon.png" alt="bacon">
+                        <div class="faixa-nome"><p>Bacon</p></div>
+                        <button class="faixa-pedido Bacon" onclick="adicionarBacon()">Adicionar +</button>
+                    </div>
+                </section>
+
+                <h1 class="title">Molhos adicionais</h1>
+                <section id="section2">
+                    <div class="produto">
+                        <img src="IMG/molhoEspecial.png" alt="especial">
+                        <div class="faixa-nome"><p>Molho Especial</p></div>
+                        <button class="faixa-pedido Especial" onclick="adicionarEspecial()">Adicionar +</button>
+                    </div>
+                    <div class="produto">
+                        <img id="img-burguitos" src="IMG/barbecue.png" alt="barbecue">
+                        <div class="faixa-nome"><p>Barbecue</p></div>
+                        <button class="faixa-pedido Barbecue" onclick="adicionarBarbecue()">Adicionar +</button>
+                    </div>
+                    <div class="produto">
+                        <img src="IMG/maionese.png" alt="maionese">
+                        <div class="faixa-nome"><p>Maionese Temperada</p></div>
+                        <button class="faixa-pedido Maionese" onclick="adicionarMaionese()">Adicionar +</button>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="lista-itens">
+                <div class="cbclh-list">
+                    <h1>Seu hamburguer</h1>
+                    <p>Só é possivel adicionar 11 itens à um hamburguer personalizado!</p>
+                    <p>*Pão e molho já incluidos.</p>
+                    <div class="excluirProds" onclick="excluirProds()">Excluir Produtos</div>
+                </div>
+                <img src="IMG/pãoCima.png" alt="pãoCima" style="height: 140px;">
+                <div class="hamburguer">
+                </div>
+                <img src="IMG/pãoBaixo.png" alt="pãoBaixo" style="height: 100px;">
+                <div class="btns-final">
+                    <div>Total: R$<p class="total-hamburguer">3,99</p></div>
+                    <a href="pedido.html"><button value="Finalizar">Finalizar</button></a>
+                </div>
+            </div>
+
+    </main>
+    <div class="linha-divisoria2" style="margin:70px 0 50px 5vw"></div>
+
+    <footer>
+        <div id="footer-elements">
+    <img src="IMG/Logo.png" alt="loog" class="logo-footer">
+
+        <ul class="navlist-footer">
+        <li><a href="combo.html">↳ Montar Combo</a></li>
+        <li><a href="montarHamburguer.html">↳ Montar hamburguer </a></li>
+        <li><a href="cardapio.html">↳ Cardápio</a></li>
+        <li><a href="compras.html">↳ Suas compras</a></li>
+        </ul>
+
+        <div class="footer3"><a href="#"><img src="Img/ifoodLogo.png" alt=""><p>Compre pelo Ifood!</p></a></div>
+
+        <div class="redes">
+            <a href="#"><img src="img/InstaIcon.png" alt="InstaIcon" class="icon-footer"></a>
+            <a href="#"><img src="img/WttsIcon.png" alt="WttsIcon" class="icon-footer"></a>
+            <a href="#"><img src="img/emailIcon.png" alt="emailIcon" class="icon-footer"></a>
+        </div>
+    </div>
+    </footer>
+    <script src="JS/app.js"></script>
+</body>
+</html>
